@@ -1,0 +1,257 @@
+html,body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #78CA46;
+}
+
+.img-perro{
+    
+    height: 87vh;
+    width:  1300px;
+    margin-left: 0px;
+}
+.principal{
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.parafo{
+   
+    text-align: center;
+    position: absolute;
+    font-size: 60px;
+    color: white;
+    background-color: #1d1c1c;
+    padding: 10px;
+
+    opacity: 0.8;
+    margin: 190px 110px;
+    border-radius: 5px;
+     
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #78CA46;
+    padding: 15px;
+    margin: 0px;
+}
+
+nav,a{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.boton{
+    margin: 70px;
+    padding: 20px;
+    position: absolute;
+    background-color: #78CA46;
+    border-radius: 5px;
+}
+
+.Nosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    
+    
+    
+}
+
+.texto-nosotros{
+    color: white;
+    font-size: 30px ;
+    position: absolute;
+    text-align: center;
+    margin: 0px 100px;
+    padding: 20px;
+    background-color: #494747a2;
+    opacity: 0.7;
+    width: 1000px;
+}
+.servicios{
+    color: #78CA46;
+    margin: 0px;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Productos h2{
+   text-align: center;
+    margin-top: 20px;
+    margin-left: 0px;
+    
+    color: #78CA46;
+    font-size: 80px;
+}
+.card-productos{
+    text-align: center;
+    margin: 0px 10px;
+
+    border: #1d1c1c solid 1.2px;
+    border-radius:35px;
+    height: 350px;
+    min-width: 300px;
+
+}
+
+
+.card-productos p{
+        font-size: 30px;
+        color: #78CA46;
+        align-items: center;
+}
+.btn{
+    background-color: #78CA46;
+    width: 220px;
+    padding: 5px;
+}
+
+.Nosotros{
+    margin-top: 20px;
+    background-image: url(../src/img/Background.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    
+    
+}
+
+.titulo-nosotros{
+    font-size: 40px;
+}
+
+.Nosotros h3{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.nosotros-seccion{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nosotros-seccion p{
+    color: white;
+    text-align: center;
+}
+.precio .timpo{
+    margin: 20px;
+
+}
+
+.imagen{
+    display: flex;
+    
+    justify-content: center;
+}
+
+
+
+
+.info{
+    font-size: 25px;
+}
+
+.titulo{
+    background-color: #78CA46;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.titulo h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.encuentranos{
+    margin-top: 10px;
+}
+.encuentranos-info{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+}
+.telefon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.telefon img{
+    align-items: center;
+    height: 80px;
+}
+
+.telefon p{
+    text-align: center;
+
+}
+
+.contacto{
+    border: solid 1px black;
+    padding: 40px;
+    border-radius: 20px;
+    margin-right: 70px;
+    box-shadow: 45px 30px 84px -43px rgba(0,0,0,0.68);
+
+}
+
+.mapa{
+    margin-left: 90px;
+}
+
+.mapa{
+    margin-top: 20px;
+}
+
+
+
+.mapa img{
+    height: 470px;
+}
+
+.Registro{
+    text-align: center;
+     background-image: url(/src/img/download.png);
+     color: white;
+     font-size: 40px;
+     max-width: 1000px;
+     margin: 0 auto;
+}
+.perrito{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+form input{
+    background-color: #78CA46;
+    margin: 0px solid white;
+    border: none;
+    background-color: white;
+    padding: 20px;
+
+}
+
+button{
+    padding: 10px;
+    color: white;
+    background-color: #78CA46;
+    border: none;
+    font-size: 20px
+}
