@@ -3,30 +3,19 @@ import ReactDOM from 'react-dom';
 
 import App from './App';
 
-import { BrowserRouter,Route,Routes } from 'react-router-dom';
-import Pagina_Principal from './routers/Pagina_Principal';
-import Inicio_Sesion from './routers/Inicio_Sesion';
-import Productos from './Components/Productos';
-import Por_que_Nosotros from './Components/Por_que_Nosotros';
-import Encuentranos from './Components/Encuentranos';
+import { BrowserRouter,Route,Routes,Router } from 'react-router-dom';
 
 
 
 ReactDOM.render(
-  <React.StrictMode>
-   <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<App/>} >
-        <Route index element={<Pagina_Principal/>} />
-        <Route path='Inicio_Sesion' element={<Inicio_Sesion/>} />
-        <Route path='productos' element={<Productos/>} />
-        <Route path='Nosotros' element={<Por_que_Nosotros/>} />
-        <Route path='Encuentranos' element={<Encuentranos/>} />
-         </Route>
-
-      </Routes>
-      </BrowserRouter>
-  </React.StrictMode>,
+  
+  
+    <BrowserRouter>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+    </BrowserRouter>
+ ,
   document.getElementById('root')
 );
 

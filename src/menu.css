@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.Envios{
+    background-image: url('./img/download.png');
+    display: flex;
+}
+
+form{
+    color: white;
+    text-align: center;
+    background-image: url('./img/download.png');
+    padding: 20px;
+
+}
+
+
+input{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+/*Fin de Menù lateral*/
+.Producto{
+    background-color: white;
+    text-align: center;
+    height: 520;
+}
+
+
+.contenedor{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.datosp{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+}
+.contador{
+    display: flex;
+    margin-left: 220px;
+
+    
+}
+
+.contador button{
+    height: 40px;
+    width: 40px;
+}
+.contador p{
+    font-size: 20px;
+line-height: 40px;    
+    
+}
+h1,h2,button,p{
+    margin-top: 20px;
+}
+p{
+    padding: 7px;
+}
+
+a{
+    text-decoration: none;
+    background-color: #78CA46;
+    color: white;
+}
+
+.carritoo{
+    background-color: #78CA46;
+    color: aliceblue;
+    text-align: center;
+    margin-left: 0px;
+}

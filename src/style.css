@@ -1,6 +1,5 @@
 html,body{
     margin: 0px;
-    font-family: 'Roboto', sans-serif;
 }
 header{
     background-color: #78CA46;
@@ -40,6 +39,9 @@ nav{
     padding: 15px;
     margin: 0px;
 }
+.fondo{
+    background-color: #78CA46;
+}
 
 nav,a{
     font-size: 30px;
@@ -48,6 +50,7 @@ nav,a{
 }
 
 .boton{
+    text-decoration: none;
     margin: 70px;
     padding: 20px;
     position: absolute;
@@ -254,4 +257,8 @@ button{
     background-color: #78CA46;
     border: none;
     font-size: 20px
+    
+}
+.fondo-producto{
+    background-color: #D4E8CF;
 }
